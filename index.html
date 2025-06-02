@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote Generator Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/computer-icons-quotation-citation-symbol-quote.jpg" type="image/x-icon">
+</head>
+    <body>
+        <div class="quote-box">
+            <h2>Quote of the day</h2>
+            <blockquote id="quote">Loading...</blockquote>
+            <span id="author">Loading...</span>
+            <div>
+                <button onclick="getQuote(api_url)">New Quote</button>
+                <button onclick="vk()"><img src="img/6509072736.jpg" alt="bird">Post on VK</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script type="text/javascript" src="https://vk.com/js/api/share.js?93" charset="windows-1251"></script>
+    </body>
+</html>
